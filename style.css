@@ -42,7 +42,7 @@ body {
     color: var(--branco-principal);#cor da fonte
     display: block;#como o elemento vai ser disposto
     text-decoration: none;#reseta decoração de textos
-    margin-bottom: 1em;
+    margin-bottom: 1em;#margem inferior
 }
 
 .botao_secundario {
