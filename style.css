@@ -30,9 +30,9 @@ body {
 }
 
 .container {
-    height: 100vh;#altura
-    display: grid;#organiza os elementos
-    grid-template-columns: 50% 50%;#duas colunas de 50%
+    height: 100vh;#altura#
+    display: grid;#organiza os elementos#
+    grid-template-columns: 50% 50%;#duas colunas de 50%#
 }
 
 .container__botao {
