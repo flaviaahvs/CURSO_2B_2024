@@ -8,30 +8,30 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);#cor de fundo
-    color: var(--branco-principal);#cor da fonte
-    font-family: var(--fonte-principal);#estilo de fontes
-    font-size: 16px;#tamanho da fonte
-    font-weight: 400;# negrito
+    background-color: var(--cor-de-fundo);/*#cor de fundo*/
+    color: var(--branco-principal);/*#cor da fonte*/
+    font-family: var(--fonte-principal);/*#estilo de fontes*/
+    font-size: 16px;/*#tamanho da fonte*/
+    font-weight: 400;/*# negrito*/
 }
 
 
-* {#seletor universal
-    margin: 0;#tamanho da margem
-    padding: 0;#espaçamento interno
+* {/*#seletor universal*/
+    margin: 0;/*#tamanho da margem*/
+    padding: 0;/*#espaçamento interno*/
 }
 
 .principal {
-    background-image: url("img/Background.png");# imagem como plano de fundo
-    background-repeat: no-repeat;#imagem repetir apenas uma vez
-    background-size: contain;#tamanho do plano de fundo
-    align-items: center;#alinhamento de elementos
-    text-align: center;#alinhamento dos textos
+    background-image: url("img/Background.png");/*# imagem como plano de fundo*/
+    background-repeat: no-repeat;/*#imagem repetir apenas uma vez*/
+    background-size: contain;/*#tamanho do plano de fundo*/
+    align-items: center;/*#alinhamento de elementos*/
+    text-align: center;/*#alinhamento dos textos*/
 }
 
 .container {
-    height: 100vh;#altura#
-    display: grid;#organiza os elementos#
+    height: 100vh;/*#altura#*/
+    display: grid;/*#organiza os elementos#*/
     grid-template-columns: 50% 50%;#duas colunas de 50%#
 }
 
