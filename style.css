@@ -40,8 +40,8 @@ body {
     border-radius: 5px;#cantos arredondados
     padding: 1em;#espaçamento interno
     color: var(--branco-principal);#cor da fonte
-    display: block;
-    text-decoration: none;
+    display: block;#como o elemento vai ser disposto
+    text-decoration: none;#reseta decora~ao de textos
     margin-bottom: 1em;
 }
 
