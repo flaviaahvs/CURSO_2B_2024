@@ -105,7 +105,7 @@ body {
 }
 
 .dispositivos {
-    text-align: center;
+    text-align: center;/*alinhamento do texto*/
 }
 
 .dispositivos__titulo {
