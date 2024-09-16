@@ -52,7 +52,7 @@ body {
 
 .container__aviso {
     font-size: 12px;/*tamanho da fonte*/
-    color: var(--cinza-secundario);700/*
+    color: var(--cinza-secundario);/*cor da fonte*/
 }
 
 .container__titulo {
@@ -99,9 +99,9 @@ body {
 
 .dispositivos__lista {
     display: flex;/*como o elemento vai ser disposto*/
-    justify-content: center;/*distribuição do espaço entre*/
-    list-style-type: none;/**/
-    margin: 5em 0;/**/
+    justify-content: center;/*distribuição do espaço entre e ao redor dos elementos*/
+    list-style-type: none;/*define o marcador da lista*/
+    margin: 5em 0;/*margem*/
 }
 
 .dispositivos {
@@ -109,48 +109,48 @@ body {
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
-    color: var(--branco-principal);/**/
+    font-size: 48px;/*tamanho da fonte*/
+    color: var(--branco-principal);/*cor da fonte*/
 }
 
 .lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);/**/
+    font-size: 32px;/*tamanho da fonte*/
+    color: var(--branco-principal);/*cor da fonte*/
 }
 
 .rodape {
-    text-align: center;
-    margin: 5em 3em;
+    text-align: center;/*alinhamento do texto*/
+    margin: 5em 3em;/*margem*/
 }
 
 .rodape__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 1em;
+    display: flex;/*como o elemento vai ser disposto*/
+    justify-content: center;/*distribuição do espaço entre e ao redor dos elementos*/
+    list-style-type: none;/*configura o marcador da lista*/
+    margin-top: 1em;/*margem superior*/
 }
 
 .lista__link a{
-    text-decoration: none;
-    color: var(--branco-principal);/**/
+    text-decoration: none;/*decoração do texto*/
+    color: var(--branco-principal);/*cor da fonte*/
     margin-left: 1em;
 }
 
 .rodape__texto {
     margin: 1em 0;
-    color: var(--cinza-secundario);/**/
+    color: var(--cinza-secundario);/*cor da fonte*/
     font-size: 14px;
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul);/**/
+    color: var(--botao-azul);/*cor da fonte*/
 }
 
 .lista__link a:active {
-    color: purple;/**/
+    color: purple;/*cor da fonte*/
 }
 
 .container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);/**/
+    background-color: var(--botao-azul-efeito);/*cor de fundo*/
+    color: var(--cor-de-fundo);/*cor da fonte*/
 }
