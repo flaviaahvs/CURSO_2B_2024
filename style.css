@@ -56,12 +56,12 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 28px;/*tamanho da fonte*/
+    font-weight: 700;/*peso da fonte/negrito*/
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;/*margem*/
 }
 
 .container__caixa {
@@ -80,8 +80,8 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;/*tamanho da fonte*/
-    color: var(--branco-principal);/**/
-    margin-bottom: 0.1em;
+    color: var(--branco-principal);/*cor da fonte*/
+    margin-bottom: 0.1em;/*margem inferior*/
 }
 
 .descricao__texto {
@@ -89,12 +89,12 @@ body {
 }
 
 .secundario__botao {
-    display: inline-block;/**/
-    margin-top: 1em;
+    display: inline-block;/*como os elementos serão distribuidos*/
+    margin-top: 1em;/*margem*/
 }
 
-.container__descricao {
-    padding: 2em;/**/
+.container_descricao {
+   padding : 2em;/*espaçamento interno*/
 }
 
 .dispositivos__lista {
